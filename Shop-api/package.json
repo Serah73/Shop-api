@@ -1,0 +1,33 @@
+{
+  "name": "shop-api",
+  "version": "1.0.0",
+  "description": "Example of API REST shop",
+  "main": "index.js",
+  "scripts": {
+    "dev": "set NODE_ENV=development&& nodemon server.js",
+    "prod": "set NODE_ENV=production&& nodemon server.js",
+    "start": "nodemon server.js",
+    "lint": "eslint \"./**\" --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Serah73/Shop-api.git"
+  },
+  "author": "José Ramón Rodríguez Hernández",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Serah73/Shop-api/issues"
+  },
+  "homepage": "https://github.com/Serah73/Shop-api#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.6.5",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.25.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
